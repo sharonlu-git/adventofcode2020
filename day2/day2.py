@@ -7,7 +7,6 @@
 num_valid_passwords_pt_1 = 0
 input_list = []
 f = open("day2input.txt", "r")
-# f = open("day2test.txt", "r")
 fl = f.readlines()
 for x in fl:
     min = int(x[0:x.index("-")])
